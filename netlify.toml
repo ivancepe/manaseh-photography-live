@@ -1,0 +1,12 @@
+# netlify.toml
+
+# This section tells Netlify how to build your site.
+[build]
+  # For a simple HTML site, your "publish" directory is the root.
+  # If your HTML files were in a "public" or "dist" folder, you would change this.
+  publish = "."
+
+# This section configures your serverless functions.
+[functions]
+  # This tells Netlify that your functions live in this directory.
+  directory = "netlify/functions"
